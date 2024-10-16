@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ortofolio Farah</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style untuk navigasi */
+        .navbar {
+            padding: 15px;
+        }
+        .navbar .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        .navbar .nav-link:hover {
+            color: #ddd;
+        }
+
+        /* Section untuk Contact */
+        .contact-section {
+            padding: 50px;
+            background-color: #222;
+            text-align: left;
+        }
+
+        .contact-header {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffc107;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-subtitle {
+            font-size: 1.2rem;
+            color: #aaa;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Form Kontak */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: #bbb;
+        }
+
+        .contact-form button {
+            background-color: #ffc107;
+            color: #000;
+            padding: 15px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ffae00;
+        }
+
+        /* Info kontak */
+        .contact-info {
+            margin-top: 40px;
+            color: #ccc;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <div class="container-fluid contact-section">
+        <h1 class="contact-header">CONTACT ME</h1>
+        <p class="contact-subtitle">I love to hear from you!</p>
+
+        <!-- Form Kontak -->
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Info Kontak -->
+        <div class="contact-info">
+            <p>Email: <a href="farahamey30@gmail.com">farahamey30@gmail.com</a></p>
+            <p>Phone: <a href="tel:08813453807">08813453807</a></p>
+            <p>Address: Telang Street, Bangkalan, East Java</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

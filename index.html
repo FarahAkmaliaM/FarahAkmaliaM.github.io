@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Farah</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        /* Style untuk navigasi */
+        .navbar {
+            padding: 15px;
+            z-index: 999; /* Tambahkan ini */
+            position: relative; /* Tambahkan ini */
+        }
+        .navbar .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        .navbar .nav-link:hover {
+            color: #ddd;
+        }
+
+        /* Style untuk Hero Section */
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero-text h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .hero-text p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .hero-text .btn {
+            border-radius: 30px;
+            padding: 10px 30px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .hero-text .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Style untuk gambar Hero */
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Teks vertikal di samping gambar */
+        .vertical-text {
+            position: absolute;
+            right: 30px;
+            top: 40%;
+            font-size: 3rem;
+            letter-spacing: 10px;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            opacity: 0.5;
+        }
+        .btn {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-fluid hero-section">
+        <div class="row">
+            <!-- Kolom Kiri: Teks -->
+            <div class="col-md-6 hero-text d-flex flex-column justify-content-center">
+                <h1>DARE TO BE <span style="color: #ddd;">DIFERENT</span></h1>
+                <h3><span style="color: #ddd;">Photography Portfolio</span></h3>
+                <p>Dare to be different with a style that only belongs to you.</p>
+                <a href="project.html"><button class="btn" >View Portofolio</button></a>
+               
+            </div>
+            <!-- Kolom Kanan: Gambar -->
+            <div class="col-md-6 hero-image position-relative">
+                <img src="hp.png" alt="Fashion Image">
+                <div class="vertical-text">ALIN</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
